@@ -1,0 +1,30 @@
+let mainCats = [
+  'Appliances',
+  'Auto Parts',
+  'Performance PowerSports',
+  'Baby',
+  'Books and EDU',
+  'Calendar Events',
+  'Media',
+  'Clothing and Apparel',
+  'Computer and Laptop',
+  'Gaming Stations',
+  'Bikes and Cycles',
+  'Free',
+  'Home and Garden',
+  'Outdoor',
+  'Industrial',
+  'Specialty and Antique',
+  'Thrift Shop and Crafting',
+  'Animals and Accessories',
+  'Recreational Vehicles',
+  'Business and Listings',
+  'Real Estate',
+  'Toys and Fun',
+  'Ticket Center',
+  'Services and Benefits',
+  'Water Sports',
+  'Winter Sports'
+];
+// write up the applicance subcats. :)
+let applicanceSubCats = [];

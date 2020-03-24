@@ -1,4 +1,4 @@
-# Upawndirect
+# Slightly Modified
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
@@ -6,21 +6,21 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Nodemon
+
+I have installed Nodemon so you do not have to save and refresh and rebuild the project after changes. 
+Just Type nodemon in the project DIR in Command Line and the server will stay running.
+
+If you want to add this to your project  [npm](https://npm.com) `npm install nodemon --save`
+
+ 
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 

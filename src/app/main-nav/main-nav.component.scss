@@ -1,0 +1,57 @@
+@import "../../assets/styles/variables";
+
+/*Main Menu Steez*/
+.mat-toolbar {
+  background-color: $slmodd-toolbar-color !important;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.is-mobile .toolbar {
+  position: fixed;
+  z-index: 2;
+}
+
+h1.app-name {
+  margin-left: 8px;
+}
+
+.mat-sidenav {
+  padding-top: 0 !important;
+  margin-top: -5px !important;
+  background-color: whitesmoke;
+}
+
+.mat-list-item {
+  padding-top: 0 !important;
+  margin-top: -5px !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  color: white;
+  background-color: $slmodd-toolbar-color;
+}
+
+.mat-list-item:hover {
+  color: $slmodd-theme;
+}
+
+
+.sidenav-container {
+  flex: 1;
+}
+
+.is-mobile .sidenav-container {
+  flex: 1 0 auto;
+}
+
+.spacer {
+  flex: 1 !important;
+}

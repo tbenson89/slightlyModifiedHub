@@ -1,3 +1,9 @@
+/**===================================|
+  Application built by A. Tyler Benson
+    Slightly Modified Technologies
+          Started: Late 2019
+          Updated: Feb 2020
+===================================**/
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +12,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'upawndirect';
+  title = 'Slightly Modified Dashboard';
+
+
+
 }
