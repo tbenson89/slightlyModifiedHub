@@ -16,6 +16,8 @@
 
 .layout-padding {padding: 2vw !important;}
 
+.layout-margin {margin: 2vw !important;}
+
 // Global Theming Styles
 a.hyperStyles {
   text-decoration: none !important;
@@ -25,14 +27,11 @@ a.hyperStyles {
   }
 }
 
-//.remove-paddin {padding: 0 !important;}
-
-//.remove-margin {margin: 0 !important;}
-
 .content-shadow:hover {box-shadow: 5px 5px 5px 15px rgba(191, 191, 191, 0.50);}
 
 /*Main Menu Steez*/
 .mat-toolbar {background-color: $slmodd-toolbar-color !important;}
+.mod-light-bg {background-color: $slmodd-secondary-bar-color;}
 
 .main-container {
   display: flex;

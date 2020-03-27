@@ -26,14 +26,14 @@
                          [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
     <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'"
                  [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
-<!--      <mat-nav-list>-->
-<!--        <a mat-list-item routerLink="." *ngFor="let nav of navItems">-->
-<!--          <div *ngFor="let icon of navIcons">-->
-<!--          &lt;!&ndash;Logic conditional to display the correct icon&ndash;&gt;-->
-<!--          <span style="padding-right: 5%;"><fa name='{{icon}}'></fa></span>  {{  nav}}-->
-<!--          </div>-->
-<!--        </a>-->
-<!--      </mat-nav-list>      -->
+<!--      <mat-nav-list>
+        <a mat-list-item routerLink="." *ngFor="let nav of navItems">
+          <div *ngFor="let icon of navIcons">
+          &lt;!&ndash;Logic conditional to display the correct icon&ndash;&gt;
+          <span style="padding-right: 5%;"><fa name='{{icon}}'></fa></span>  {{  nav}}
+          </div>
+        </a>
+      </mat-nav-list>      -->
       <mat-nav-list>
         <a mat-list-item routerLink=".">
           <span style="padding-right: 5%;"><fa name='home'></fa></span> Home
@@ -70,7 +70,7 @@
         </a>
       </mat-nav-list>
       <mat-nav-list>
-        <a mat-list-item routerLink=".">
+        <a mat-list-item routerLink="profile">
           <span style="padding-right: 5%;"><fa name='users'></fa></span> Profiles
         </a>
       </mat-nav-list>
@@ -120,7 +120,8 @@
     </mat-sidenav>
 
     <mat-sidenav-content>
-<!--      <app-dashboard></app-dashboard>-->
+
+      <!--Dynamic Pager-->
       <router-outlet></router-outlet>
 
     </mat-sidenav-content>

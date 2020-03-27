@@ -27,6 +27,7 @@ import { DashboardLaptopHeaderComponent } from './dashboard/dashboard-laptop-hea
 import { DashboardMobileHeaderComponent } from './dashboard/dashboard-mobile-header/dashboard-mobile-header.component';
 import { CatCardsComponent } from './partials/cat-cards/cat-cards.component';
 import { FooterComponent } from './footer/footer.component';
+import { UserProfileComponent } from './associate/user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { FooterComponent } from './footer/footer.component';
     DashboardLaptopHeaderComponent,
     DashboardMobileHeaderComponent,
     CatCardsComponent,
-    FooterComponent
+    FooterComponent,
+    UserProfileComponent
   ],
     imports: [
         BrowserModule,
