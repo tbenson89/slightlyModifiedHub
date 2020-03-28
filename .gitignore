@@ -45,3 +45,4 @@ testem.log
 .DS_Store
 Thumbs.db
 /src/app/junk.html
+/junk/quickSnip-fixText-usrProfileComp.PNG
