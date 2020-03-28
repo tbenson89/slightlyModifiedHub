@@ -15,8 +15,11 @@
 .text-center {text-align: center !important;}
 
 .layout-padding {padding: 2vw !important;}
+.no-padding {padding: 0;}
 
 .layout-margin {margin: 2vw !important;}
+.margin-layout {margin: 5% 2%;}
+.no-margin { margin: 0; }
 
 // Global Theming Styles
 a.hyperStyles {
@@ -72,7 +75,6 @@ h1.app-name {margin-left: 8px;}
 
 .is-mobile .sidenav-container {flex: 1 0 auto;}
 
-.margin-layout {margin: 5% 2%;}
 
 
 

@@ -1,7 +1,7 @@
 <!-- User Profile ToolBa r-->
 <mat-toolbar-row class="mod-light-bg">
   <span fxFlex="2"></span>
-  <span class="white-text" fxFlex>User Details: <strong> {{ name }} </strong></span>
+  <span class="white-text" fxFlex>Hello: <strong> {{ name }} </strong></span>
   <mat-icon>favorite</mat-icon>
   <mat-icon color="warn">delete</mat-icon>
   <button mat-mini-fab color="white" routerLink=""><mat-icon>person</mat-icon></button>
@@ -11,11 +11,19 @@
 <!--User Profile Home -->
 <div fxLayout="row">
   <div fxFlex="2"></div>
+
+  <!--Users Main Content Area-->
   <div fxFlex="66">
-    <mat-card class="layout-padding layout-margin">
-      Main content :)
+    <mat-card class="layout-margin">
+
+      <!--USER PROFILE FEATURES PARTIAL-->
+      <app-user-profile-features></app-user-profile-features>
+
+
     </mat-card>
   </div>
+
+  <!--Users Helpful Toolbox-->
   <div fxFlex="30">
     <mat-card class="layout-padding layout-margin">
       Right Column Supporting Media Content
