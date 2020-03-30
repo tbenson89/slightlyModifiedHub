@@ -29,6 +29,7 @@ import { CatCardsComponent } from './partials/cat-cards/cat-cards.component';
 import { FooterComponent } from './footer/footer.component';
 import { UserProfileComponent } from './associate/user-profile/user-profile.component';
 import { UserProfileFeaturesComponent } from './associate/userPartials/user-profile-features/user-profile-features.component';
+import { DashboardNewFeaturesComponent } from './dashboard/dashboard-new-features/dashboard-new-features.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { UserProfileFeaturesComponent } from './associate/userPartials/user-prof
     CatCardsComponent,
     FooterComponent,
     UserProfileComponent,
-    UserProfileFeaturesComponent
+    UserProfileFeaturesComponent,
+    DashboardNewFeaturesComponent
   ],
     imports: [
         BrowserModule,

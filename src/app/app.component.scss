@@ -6,10 +6,13 @@
 
 //Global colors
 .gray-bg {background-color: $slmodd-toolbar-color;}
+.mod-theme-bg {background-color: $slmodd-theme-bg;}
 
 .white-text {color: #ffffff !important;}
 
 //Global Spacing and Format
+.bottom-section-shadow {box-shadow: 0 8px 6px -6px black;}
+
 .spacer {flex: 1 !important;}
 
 .text-center {text-align: center !important;}
