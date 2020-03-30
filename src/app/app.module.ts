@@ -30,6 +30,7 @@ import { FooterComponent } from './footer/footer.component';
 import { UserProfileComponent } from './associate/user-profile/user-profile.component';
 import { UserProfileFeaturesComponent } from './associate/userPartials/user-profile-features/user-profile-features.component';
 import { DashboardNewFeaturesComponent } from './dashboard/dashboard-new-features/dashboard-new-features.component';
+import { DiscoveryZoneComponent } from './discovery/discovery-zone/discovery-zone.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { DashboardNewFeaturesComponent } from './dashboard/dashboard-new-feature
     FooterComponent,
     UserProfileComponent,
     UserProfileFeaturesComponent,
-    DashboardNewFeaturesComponent
+    DashboardNewFeaturesComponent,
+    DiscoveryZoneComponent
   ],
     imports: [
         BrowserModule,
