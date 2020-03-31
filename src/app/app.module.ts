@@ -31,6 +31,7 @@ import { UserProfileComponent } from './associate/user-profile/user-profile.comp
 import { UserProfileFeaturesComponent } from './associate/userPartials/user-profile-features/user-profile-features.component';
 import { DashboardNewFeaturesComponent } from './dashboard/dashboard-new-features/dashboard-new-features.component';
 import { DiscoveryZoneComponent } from './discovery/discovery-zone/discovery-zone.component';
+import { FeaturesComponent } from './partials/features/features.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { DiscoveryZoneComponent } from './discovery/discovery-zone/discovery-zon
     UserProfileComponent,
     UserProfileFeaturesComponent,
     DashboardNewFeaturesComponent,
-    DiscoveryZoneComponent
+    DiscoveryZoneComponent,
+    FeaturesComponent
   ],
     imports: [
         BrowserModule,
