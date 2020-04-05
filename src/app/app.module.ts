@@ -32,6 +32,8 @@ import { UserProfileFeaturesComponent } from './associate/userPartials/user-prof
 import { DashboardNewFeaturesComponent } from './dashboard/dashboard-new-features/dashboard-new-features.component';
 import { DiscoveryZoneComponent } from './discovery/discovery-zone/discovery-zone.component';
 import { FeaturesComponent } from './partials/features/features.component';
+import { DesktopFooterColumnsComponent } from './footer/desktop-footer-columns/desktop-footer-columns.component';
+import { MobileFooterColumnsComponent } from './footer/mobile-footer-columns/mobile-footer-columns.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +49,9 @@ import { FeaturesComponent } from './partials/features/features.component';
     UserProfileFeaturesComponent,
     DashboardNewFeaturesComponent,
     DiscoveryZoneComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    DesktopFooterColumnsComponent,
+    MobileFooterColumnsComponent
   ],
     imports: [
         BrowserModule,
