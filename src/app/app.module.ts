@@ -33,7 +33,7 @@ import { DashboardNewFeaturesComponent } from './dashboard/dashboard-new-feature
 import { DiscoveryZoneComponent } from './discovery/discovery-zone/discovery-zone.component';
 import { FeaturesComponent } from './partials/features/features.component';
 import { DesktopFooterColumnsComponent } from './footer/desktop-footer-columns/desktop-footer-columns.component';
-import { MobileFooterColumnsComponent } from './footer/mobile-footer-columns/mobile-footer-columns.component';
+import { TabletFooterColumnsComponent } from './footer/tablet-footer-columns/tablet-footer-columns.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +51,7 @@ import { MobileFooterColumnsComponent } from './footer/mobile-footer-columns/mob
     DiscoveryZoneComponent,
     FeaturesComponent,
     DesktopFooterColumnsComponent,
-    MobileFooterColumnsComponent
+    TabletFooterColumnsComponent
   ],
     imports: [
         BrowserModule,
