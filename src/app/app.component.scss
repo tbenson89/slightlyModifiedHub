@@ -10,6 +10,18 @@
 
 .white-text {color: #ffffff !important;}
 
+// Links
+.link-light-gray {
+  color: $slmodd-link-light-gray !important;
+}
+
+// Social Links
+.fb-blue { background-color: $facebook-blue !important; }
+.ig-purp { background-color: $ig !important; }
+.google-blue { background-color: $google !important; }
+.yt-red { background-color: $youtube !important; }
+.twit-blue { background-color: $twit-blue !important; }
+
 //Global Spacing and Format
 .bottom-section-shadow {box-shadow: 0 8px 6px -6px black;}
 
@@ -17,12 +29,16 @@
 
 .text-center {text-align: center !important;}
 
+.lay-left { text-align: left !important; }
+
 .layout-padding {padding: 2vw !important;}
 .no-padding {padding: 0;}
 
 .layout-margin {margin: 2vw !important;}
 .margin-layout {margin: 5% 2%;}
 .no-margin { margin: 0; }
+
+.nodots { list-style: none !important; }
 
 // Global Theming Styles
 a.hyperStyles {

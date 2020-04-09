@@ -5,3 +5,16 @@ $border-dark: rgba($slmodd-toolbar-color, 1);
 $slmodd-theme: #6dadd0;
 $slmodd-theme-bg: #E9ECEF;
 $slmodd-accent: adjust_hue($slmodd-theme, 360);
+
+// Typo
+
+// Links
+$slmodd-link-light-gray: lighten($slmodd-toolbar-color, 40%);
+
+
+// Social Link Colors
+$facebook-blue: #4064AC;
+$ig: #A93481;
+$google: #4081ED;
+$youtube: #FB000F;
+$twit-blue: #8CC4F6;
