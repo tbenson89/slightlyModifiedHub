@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DiscoveryZoneComponent } from './discovery-zone.component';
+import { DiscoveryComponent } from './discovery.component';
 
-describe('DiscoveryZoneComponent', () => {
-  let component: DiscoveryZoneComponent;
-  let fixture: ComponentFixture<DiscoveryZoneComponent>;
+describe('DiscoveryComponent', () => {
+  let component: DiscoveryComponent;
+  let fixture: ComponentFixture<DiscoveryComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DiscoveryZoneComponent ]
+      declarations: [ DiscoveryComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DiscoveryZoneComponent);
+    fixture = TestBed.createComponent(DiscoveryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -8,13 +8,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import {UserProfileComponent} from './associate/user-profile/user-profile.component';
-import {DiscoveryZoneComponent} from './discovery/discovery-zone/discovery-zone.component';
+import {DiscoveryComponent} from './pages/discovery/discovery.component';
 
 
 const routes: Routes = [
   { path: '', component: DashboardComponent },
   { path: 'profile', component: UserProfileComponent },
-  { path: 'discover', component: DiscoveryZoneComponent },
+  { path: 'discover', component: DiscoveryComponent },
 ];
 
 @NgModule({

@@ -28,9 +28,9 @@ import { DashboardMobileHeaderComponent } from './dashboard/dashboard-mobile-hea
 import { CatCardsComponent } from './partials/cat-cards/cat-cards.component';
 import { FooterComponent } from './footer/footer.component';
 import { UserProfileComponent } from './associate/user-profile/user-profile.component';
-import { UserProfileFeaturesComponent } from './associate/userPartials/user-profile-features/user-profile-features.component';
+import { UserProfileFeaturesComponent } from './partials/associate/user/user-profile-features/user-profile-features.component';
 import { DashboardNewFeaturesComponent } from './dashboard/dashboard-new-features/dashboard-new-features.component';
-import { DiscoveryZoneComponent } from './discovery/discovery-zone/discovery-zone.component';
+import { DiscoveryComponent } from './pages/discovery/discovery.component';
 import { FeaturesComponent } from './partials/features/features.component';
 import { DesktopFooterColumnsComponent } from './footer/desktop-footer-columns/desktop-footer-columns.component';
 import { TabletFooterColumnsComponent } from './footer/tablet-footer-columns/tablet-footer-columns.component';
@@ -49,7 +49,7 @@ import { MobileFooterRowsComponent } from './footer/mobile-footer-rows/mobile-fo
     UserProfileComponent,
     UserProfileFeaturesComponent,
     DashboardNewFeaturesComponent,
-    DiscoveryZoneComponent,
+    DiscoveryComponent,
     FeaturesComponent,
     DesktopFooterColumnsComponent,
     TabletFooterColumnsComponent,
