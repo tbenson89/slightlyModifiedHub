@@ -3,10 +3,14 @@
   <app-desktop-footer-columns></app-desktop-footer-columns>
 </div>
 
-
-<!--Tablet/Mobile Footer Partial-->
-<div fxShow.sm fxHide.gt-sm>
+<!--Tablet Footer Partial-->
+<div fxShow.md fxHide.gt-md fxHide.lt-md>
   <app-tablet-footer-columns></app-tablet-footer-columns>
+</div>
+
+<!--Mobile Footer Partial-->
+<div fxShow.sm fxHide.gt-sm>
+  <app-mobile-footer-rows></app-mobile-footer-rows>
 </div>
 
 <div class="text-center gray-bg white-text layout-padding">
