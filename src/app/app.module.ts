@@ -36,6 +36,7 @@ import { DesktopFooterColumnsComponent } from './footer/desktop-footer-columns/d
 import { TabletFooterColumnsComponent } from './footer/tablet-footer-columns/tablet-footer-columns.component';
 import { MobileFooterRowsComponent } from './footer/mobile-footer-rows/mobile-footer-rows.component';
 import { ShopComponent } from './pages/shop/shop.component';
+import { ShoppingToolbarComponent } from './partials/shopping-toolbar/shopping-toolbar.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { ShopComponent } from './pages/shop/shop.component';
     DesktopFooterColumnsComponent,
     TabletFooterColumnsComponent,
     MobileFooterRowsComponent,
-    ShopComponent
+    ShopComponent,
+    ShoppingToolbarComponent
   ],
     imports: [
         BrowserModule,
