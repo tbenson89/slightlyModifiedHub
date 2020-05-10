@@ -17,7 +17,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import {MatCardModule, MatDividerModule, MatFormFieldModule, MatInputModule, MatListModule, MatSelectModule} from '@angular/material';
+import { MatCardModule, MatDividerModule, MatFormFieldModule, MatInputModule, MatListModule, MatSelectModule } from '@angular/material';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { FormsModule } from '@angular/forms';
