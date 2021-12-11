@@ -46,3 +46,6 @@ testem.log
 Thumbs.db
 /src/app/junk.html
 /junk/quickSnip-fixText-usrProfileComp.PNG
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/slightlyModifiedHub/v16/.suo
